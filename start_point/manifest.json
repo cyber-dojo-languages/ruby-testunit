@@ -12,6 +12,11 @@
 
   "filename_extension": ".rb",
 
+  "hidden_filenames": [
+    "coverage/\\.last_run\\.json",
+    "coverage/\\.resultset\\.json"
+  ],
+
   "tab_size": 2,
 
   "runner_choice": "stateless"
