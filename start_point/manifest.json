@@ -17,7 +17,5 @@
     "coverage/\\.resultset\\.json"
   ],
 
-  "tab_size": 2,
-
-  "runner_choice": "stateless"
+  "tab_size": 2
 }
