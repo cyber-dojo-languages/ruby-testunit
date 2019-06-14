@@ -1,4 +1,3 @@
 # Ruby, testunit
 
-![Build Status](https://travis-ci.org/cyber-dojo-languages/ruby-testunit.svg?branch=master)
-
+[![CircleCI](https://circleci.com/gh/cyber-dojo-languages/ruby-testunit.svg?style=svg)](https://circleci.com/gh/cyber-dojo-languages/ruby-testnit)
