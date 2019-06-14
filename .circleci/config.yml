@@ -10,10 +10,10 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Build tools and test them
+          name: Build image, test it, push it dockerhub
           command: |
             set -e
-            SCRIPT=run_build_image2.sh
+            SCRIPT=build_test_push.sh
             curl -O --fail https://raw.githubusercontent.com/cyber-dojo-languages/image_builder/master/${SCRIPT}
             chmod 700 ./${SCRIPT}
             echo "${DOCKER_PASSWORD}" | docker login -u "${DOCKER_USERNAME}" --password-stdin
