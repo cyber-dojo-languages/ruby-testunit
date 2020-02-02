@@ -1,4 +1,3 @@
-
 [![CircleCI](https://circleci.com/gh/cyber-dojo-languages/ruby-testunit.svg?style=svg)](https://circleci.com/gh/cyber-dojo-languages/ruby-testunit)
 
 ## display_name="Ruby, Test::Unit"
