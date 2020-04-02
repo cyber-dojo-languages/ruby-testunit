@@ -1,5 +1,6 @@
 require 'simplecov'
 require 'simplecov-console'
+require 'stringio'
 
 module SimpleCov
   module Formatter
