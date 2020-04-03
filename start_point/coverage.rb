@@ -32,6 +32,8 @@ end
 
 SimpleCov.command_name "Test::Unit"
 SimpleCov.at_exit do
+  # I'd like to only write the coverage report if the
+  # traffic-light is green but it seems there is no way.
   if $!.is_a?(SystemExit) # !amber-traffic-light
     SimpleCov::Formatter::FileWriter.new.format(SimpleCov.result)
   end
