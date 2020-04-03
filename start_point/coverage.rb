@@ -30,5 +30,10 @@ module SimpleCov
   end
 end
 
-SimpleCov.formatter = SimpleCov::Formatter::FileWriter
+SimpleCov.command_name "Test::Unit"
+SimpleCov.at_exit do
+  if $!.is_a?(SystemExit) # !amber-traffic-light
+    SimpleCov::Formatter::FileWriter.new.format(SimpleCov.result)
+  end
+end
 SimpleCov.start
