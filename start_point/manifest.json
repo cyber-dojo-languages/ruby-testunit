@@ -1,21 +1,19 @@
 {
+  "image_name": "cyberdojofoundation/ruby_test_unit",
   "display_name": "Ruby, Test::Unit",
-
-  "visible_filenames": [
+  "visible_filenames":
+  [
     "test_hiker.rb",
     "hiker.rb",
     "coverage.rb",
     "cyber-dojo.sh"
   ],
-
-  "image_name": "cyberdojofoundation/ruby_test_unit",
-
-  "filename_extension": ".rb",
-
-  "hidden_filenames": [
+  "filename_extension": [ ".rb" ],
+  "max_seconds": 10,
+  "tab_size": 2,
+  "hidden_filenames":
+  [
     "coverage/\\.last_run\\.json",
     "coverage/\\.resultset\\.json"
-  ],
-
-  "tab_size": 2
+  ]
 }
