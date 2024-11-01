@@ -1,6 +1,6 @@
-[![CircleCI](https://circleci.com/gh/cyber-dojo-languages/ruby-testunit.svg?style=svg)](https://circleci.com/gh/cyber-dojo-languages/ruby-testunit)
+[![Github Action (main)](https://github.com/cyber-dojo-languages/ruby-testunit/actions/workflows/main.yml/badge.svg)](https://github.com/cyber-dojo-languages/ruby-testunit/actions)
 
 ## display_name="Ruby, Test::Unit"
-## image_name="cyberdojofoundation/ruby_test_unit"
+## image_name="ghcr.io/cyber-dojo-languages/ruby_test_unit"
 
 ![cyber-dojo.org home page](https://github.com/cyber-dojo/cyber-dojo/blob/master/shared/home_page_snapshot.png)
