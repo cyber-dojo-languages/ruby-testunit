@@ -23,5 +23,5 @@ check_gem_version()
   fi
 }
 
-check_gem_version test-unit 3.7.5
-check_gem_version mocha 3.1.0
+check_gem_version test-unit 3.7
+check_gem_version mocha 3.1
